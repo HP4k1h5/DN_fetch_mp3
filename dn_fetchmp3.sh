@@ -39,7 +39,7 @@ fi
 #echo "found it!\n"
 redirect_url=`curl -s -I http://traffic.libsyn.com/democracynow/dn$d-1.mp3 | perl -n -e '/^Location: (.*)$/ && print "$1\n"'`
 clean_url=${redirect_url%$'\r'}
-curl -# -o ~/Documents/CS/DN_fetch_mp3/dn_show-$d.mp3 $clean_url
+curl -# -o dn_show-$d.mp3 $clean_url
 cat dn_ascii.txt
 echo "Support Democracy Now! by donating at: https://www.democracynow.org/donate"
 echo "Playing Democracy Now! broadcast from  $d"
