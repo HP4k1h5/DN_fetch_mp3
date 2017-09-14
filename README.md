@@ -1,6 +1,6 @@
-This is a command line tool to download and play the latest Democracy Now! broadcast as an .mp3 file. This tool should work on linux based systems or from any linux compatible terminal emulator.
+This is an unofficial, unaffiliated command line tool to download and play the latest Democracy Now! broadcast as an .mp3 file. This tool should work on linux based systems or from any linux compatible terminal emulator.
 
-This is not pulling data from a public api, and may therefore not guaranteed to be stable. 
+This script is not pulling data from a public api, and may therefore not guaranteed to be stable. This repository is in no way associated with Democracy Now!
 
 #****
 INSTALLATION:
