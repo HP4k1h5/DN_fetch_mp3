@@ -1,3 +1,7 @@
+#Due to a change in the way democracy distributes its program online
+#this utility is NOT currently functioning. 
+#i will be making changes in the coming days probably switching to wget
+
 This is an \*unofficial\*, \*unaffiliated\* command line tool to download and play the latest Democracy Now! broadcast as an .mp3 file. This tool should work on linux based systems or from any linux compatible terminal emulator.
 
 This script is not pulling data from a public api, and is therefore not guaranteed to be stable. This repository is in no way associated with Democracy Now!
