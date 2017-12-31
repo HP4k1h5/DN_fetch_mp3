@@ -3,7 +3,15 @@
 #### Democracy Now! typically airs at 8:00 am EST Mon-Fri, and uploads the day's broadcast a little after 9:00 am EST. Therefore, if you try to download a show after midnight, it will look for yesterday's show. If you try to download a show during the weekend, it will look for friday's show.
 
 
-###Latest Version: dn_fetch-mp3.sh
+### Latest Version: dn_fetch-mp3.sh
+
+### REQUIREMENTS: 
+  1) wget 
+
+   * a) can be installed from [https://www.gnu.org/software/wget/](https://www.gnu.org/software/wget/)
+
+   * b) or from brew via: brew install wget
+
 
 ## INSTALLATION:
 
