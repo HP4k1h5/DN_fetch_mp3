@@ -13,6 +13,6 @@ url=https://traffic.libsyn.com/democracynow/dn$d.mp3
 
 wget $url
 
-cat dn_ascii.txt
+cat ./dn_ascii.txt
 
 afplay -q 1 ./dn$d.mp3
