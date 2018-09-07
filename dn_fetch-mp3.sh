@@ -11,8 +11,10 @@ fi
 
 url=https://traffic.libsyn.com/democracynow/dn$d.mp3
 
-wget $url
+wget -O $PWD/dn$d.mp3 $url
 
-cat ./dn_ascii.txt
+cat $PWD/dn_ascii.txt
+echo "Donate to Democracy Now! at democracynow.org/donate"
+afplay -q 1 $PWD/dn$d.mp3
+echo "Donate to Democracy Now! at democracynow.org/donate"
 
-afplay -q 1 ./dn$d.mp3
