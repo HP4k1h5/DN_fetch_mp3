@@ -11,10 +11,18 @@ fi
 
 url=https://traffic.libsyn.com/democracynow/dn$d.mp3
 
-wget -O $PWD/dn$d.mp3 $url
 
-cat $PWD/dn_ascii.txt
-echo "Donate to Democracy Now! at democracynow.org/donate"
-afplay -q 1 $PWD/dn$d.mp3
+SOURCE="${BASH_SOURCE[0]}"
+while [ -h "$SOURCE" ]; do 
+  DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null && pwd )"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE" 
+done
+DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null && pwd )"
+
+wget -O $DIR/dn$d.mp3 $url
+
+cat $DIR/dn_ascii.txt
+afplay -q 1 $DIR/dn$d.mp3
 echo "Donate to Democracy Now! at democracynow.org/donate"
 
